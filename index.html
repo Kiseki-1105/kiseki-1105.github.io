@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chatweb docs sync</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1f2328; background: #fff; }
+    code { background: #f3f4f6; padding: 0 .25rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>chatweb docs sync</h1>
+  <p>
+    Công cụ dòng lệnh cá nhân (script Python chạy trên máy của chủ dự án). Nó chuyển tài liệu thiết kế của dự án
+    <em>chatweb</em> từ Markdown sang Google Docs trong Google Drive của chính người dùng, để đọc và hỏi đáp trên
+    NotebookLM (Gemini Notebook).
+  </p>
+  <h2>Công cụ làm gì</h2>
+  <ul>
+    <li>Tạo một thư mục <code>chatweb-docs</code> và 4 Google Doc trong Drive của người đăng nhập.</li>
+    <li>Mỗi lần tài liệu đổi, ghi đè nội dung đúng các Doc đó.</li>
+    <li>Quyền xin cấp: <code>https://www.googleapis.com/auth/drive.file</code>. Công cụ chỉ thấy và sửa được file do chính nó tạo, không đọc file nào khác trong Drive.</li>
+  </ul>
+  <p>Công cụ không phải dịch vụ công khai: chỉ chủ dự án dùng, không có tài khoản hay máy chủ riêng.</p>
+  <p><a href="privacy.html">Chính sách quyền riêng tư (Privacy Policy)</a></p>
+</body>
+</html>
